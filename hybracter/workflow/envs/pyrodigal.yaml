@@ -1,9 +1,9 @@
 name: pyrodigal
 channels:
-    - conda-forge
     - bioconda
+    - conda-forge
 dependencies:
-    - pandas
-    - numpy
-    - biopython >=1.78
-    - pyrodigal >=3.0.0
+    - biopython==1.85
+    - numpy==2.2.3
+    - pandas==2.2.3
+    - pyrodigal==3.6.3

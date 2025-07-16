@@ -1,8 +1,7 @@
 name: ale
 channels:
-    - conda-forge
     - bioconda
+    - conda-forge
 dependencies:
-     - ale-core ==20220503
-     - bwa >=0.7.17 
-
+     - ale-core==20220503
+     - bwa==0.7.18

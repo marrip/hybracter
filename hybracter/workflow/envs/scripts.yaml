@@ -1,10 +1,10 @@
 name: scripts
 channels:
-    - conda-forge
     - bioconda
+    - conda-forge
 dependencies:
-    - pandas
-    - pyarrow
-    - numpy
-    - biopython >=1.78
-    - mappy >=2.26
+    - biopython==1.85
+    - mappy==2.28
+    - numpy==2.2.3
+    - pandas==2.2.3
+    - pyarrow==19.0.1
