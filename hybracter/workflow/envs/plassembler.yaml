@@ -4,6 +4,7 @@ channels:
     - conda-forge
 dependencies:
     - canu==2.2
+    - fastp==0.24.0
     - mash==2.3
     - plassembler==1.6.2
     - spades==4.0.0
